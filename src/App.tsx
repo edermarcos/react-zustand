@@ -1,7 +1,10 @@
+import { Button } from './components/ui/button'
+
 const App = () => {
   return (
-    <section>
+    <section className='border border-red-500'>
       <h1>React App</h1>
+      <Button>Button</Button>
     </section>
   )
 }
