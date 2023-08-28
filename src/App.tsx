@@ -1,12 +1,7 @@
-import { Button } from './components/ui/button'
+import DemoCounter from './pages/DemoCounter'
 
 const App = () => {
-  return (
-    <section className='border border-red-500'>
-      <h1>React App</h1>
-      <Button>Button</Button>
-    </section>
-  )
+  return <DemoCounter />
 }
 
 export default App
